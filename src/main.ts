@@ -30,3 +30,6 @@ function delayedHello(
 export async function greeter(name: string) {
   return await delayedHello(name, Delays.Long);
 }
+
+
+greeter("World").then(console.log);
